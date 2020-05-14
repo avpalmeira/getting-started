@@ -1,7 +1,7 @@
 # Rails Blog
 
-Ruby on Rails Official Getting Started [Guide](https://guides.rubyonrails.org/getting_started.html)
-It creates a functional blog
+Ruby on Rails Official Getting Started [Guide](https://guides.rubyonrails.org/getting_started.html).
+It creates a functional blog.
 
 To make it work:
 1. Clone the project into your machine
