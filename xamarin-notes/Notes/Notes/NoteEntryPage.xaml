@@ -1,13 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.MainPage">
-    <StackLayout Margin="10,35,10,10">
-        <Label Text="Notes App"
-               HorizontalOptions="Center"
-               FontAttributes="Bold" />
-        <Editor x:Name="editor"
-                Placeholder="Insira sua anotação"
+             x:Class="Notes.NoteEntryPage"
+             Title="Note Entry">
+    <StackLayout Margin="20">
+        <Editor Placeholder="Insira sua anotação"
+                Text="{Binding Text}"
                 HeightRequest="100" />
         <Grid>
             <Grid.ColumnDefinitions>
