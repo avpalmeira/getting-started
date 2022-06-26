@@ -1,4 +1,4 @@
-# show-off
+# getting-started
 
 Getting started on some technologies and skills:
 
